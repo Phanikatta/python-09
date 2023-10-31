@@ -1,0 +1,18 @@
+#Ass-1To print the required pattern
+for i in range(1,4):
+	for j in range(1,4):
+		print('*',end='')
+	print()
+
+#Ass-2
+n=int(input())
+for i in range(1,n+1):
+	for j in range(4):
+		print(i,end=' ')
+	print()
+	
+#Ass-3
+for i in range(1,5):
+	for j in range(i,7,2):
+		print(j,end='')
+	print()
